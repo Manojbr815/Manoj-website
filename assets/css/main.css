@@ -707,7 +707,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.home {
+.hero {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -717,7 +717,7 @@ section,
   justify-content: center;
 }
 
-.home:before {
+.hero:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
@@ -725,7 +725,7 @@ section,
   z-index: 2;
 }
 
-.home img {
+.hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -735,19 +735,19 @@ section,
   z-index: 1;
 }
 
-.home .container {
+.hero .container {
   position: relative;
   z-index: 3;
 }
 
-.home h2 {
+.hero h2 {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 56px;
 }
 
-.home p {
+.hero p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 10px 0 0 0;
   font-size: 16px;
@@ -756,13 +756,13 @@ section,
 }
 
 @media (max-width: 640px) {
-  .home h1 {
+  .hero h1 {
     font-size: 30px;
     line-height: 36px;
   }
 }
 
-.home .btn-scroll {
+.hero .btn-scroll {
   transition: 0.4s;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   display: block;
@@ -770,11 +770,11 @@ section,
   animation: btn-up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-.home .btn-scroll i {
+.hero .btn-scroll i {
   font-size: 48px;
 }
 
-.home .btn-scroll:hover {
+.hero .btn-scroll:hover {
   color: var(--accent-color);
 }
 
